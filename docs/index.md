@@ -4,22 +4,28 @@ layout: home
 
 hero:
   name: "ShadowViewer"
-  text: "ShadowViewer"
-  tagline: My great project tagline
+  text: "漫画阅读器"
+  tagline: 使用Windows App SDK 构建的漫画阅读器
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始使用
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 参与开发
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Windows App SDK
+    icon: 
+      src: Header-WinUI.png
+    details: 使用全新的Windows App SDK 1.6构建
+  - title: MVVM
+    icon: 
+      src: mvvm.png
+    details: 设计上遵循MVVM架构
+  - title: 插件系统
+    icon: 
+      src: Accessibility.png
+    details: 支持插件拓展
 ---
 
